@@ -3,20 +3,16 @@
   justify-content: space-between;
 }
 .content_logo {
-  width: 107px;
-  height: 18px;
-  left: 40px;
-  top: 7px;
-
+  display: flex;
+  justify-items: center;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 800;
   font-size: 24px;
-  line-height: 18px;
   /* identical to box height, or 75% */
-
   color: #000000;
 }
+
 .content_sign-up {
   background-color: blue;
   color: white;
@@ -28,6 +24,8 @@
 }
 .hero_text {
   display: flex;
+  justify-content: space-between;
+  margin: 2%;
   font-family: "Poppins";
   font-size: 40px;
   font-weight: 700;
@@ -39,46 +37,31 @@
   font-family: "Poppins";
 }
 .find-brands {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 16px 28px;
-  gap: 8px;
-  flex-direction: column;
-  width: 163px;
-  height: 56px;
-  left: 0px;
-  top: 344px;
-  background: #3b82f6;
-  border-radius: 6px;
+  background-color: #3b82f6;
+  color: #ffffff;
+  width: 580px;
 }
 .find-creators {
-  box-sizing: border-box;
-
-  /* Auto layout */
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 16px 28px;
-  gap: 8px;
-  width: 178px;
-  height: 56px;
-  left: 191px;
-  top: 344px;
-  background: #ffffff;
-  /* Gray/200 */
-  border: 1px solid #d5dae1;
-  border-radius: 6px;
+  color: #000000;
+  margin-left: 122px;
+  width: 200%;
 }
-
-.creators_text {
-  line-height: 2px;
+.content_img {
+  margin-left: -3;
+}
+.creator_text {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  width: 300px;
+}
+.content_numbers {
+  margin-right: 20%;
 }
 .form_text {
+  margin-top: 10%;
+  margin-left: 15%;
+  display: flex;
+  justify-content: center;
   width: 977px;
   height: 60px;
   font-family: "Poppins";
@@ -89,21 +72,28 @@
   letter-spacing: -0.02em;
   color: #2a3342;
 }
+.form_content {
+  margin-bottom: 10%;
+}
 .card_text {
   display: flex;
   justify-content: center;
+  margin-left: 6%;
   width: 919px;
   height: 60px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  padding: 20px;
+  padding: 80px;
   color: #556987;
 }
-.conent_numbers {
+
+.content_numbers {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 5%;
+  margin-left: 3%;
   height: 60px;
   font-family: "Poppins";
   font-style: normal;
@@ -113,9 +103,15 @@
   letter-spacing: -0.02em;
   color: #2a3342;
 }
+.content_num {
+  font-size: 16px;
+  font-weight: 500;
+  color: #556987;
+}
 .bottom_text {
   display: flex;
   justify-content: space-evenly;
+  margin-left: -7;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
@@ -403,9 +399,6 @@
   /* White/900 */
 
   background: #ffffff;
-  /* tailwind/drop-shadow-2xl */
-
-  box-shadow: 0px 32px 64px -12px rgba(85, 105, 135, 0.08);
   border-radius: 6px;
 }
 .buttom_txt {
@@ -447,7 +440,6 @@
   height: 289px;
   left: 150px;
   top: 239px;
-
   background: radial-gradient(
     50% 50% at 50% 50%,
     rgba(28, 35, 45, 0) 0%,
@@ -463,7 +455,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
-  line-height: 44px;
+  line-height: 35px;
   /* or 122% */
 
   letter-spacing: -0.02em;
